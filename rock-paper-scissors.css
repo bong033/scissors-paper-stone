@@ -1,60 +1,4 @@
-<<<<<<< HEAD
-body {
-  font-family: Arial;
-  background-color: black;
-  color: white;
-}
 
-.content,
-.content-button {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.content {
-  flex-direction: column;
-  font-size: 30px;
-}
-.content-button {
-  flex-direction: row;
-  margin-bottom: 30px;
-}
-
-.status {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.game-images {
-  height: 50px;
-}
-
-.game-buttons {
-  background-color: transparent;
-  border: 3px solid white;
-  padding: 20px 20px;
-  border-radius: 60px;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.result-status-total {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.reset-button {
-  background-color: gray;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 8px 6px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  }
-||||||| (empty tree)
-=======
 body {
   font-family: Arial;
   background-color: black;
@@ -96,10 +40,10 @@ body {
   cursor: pointer;
 }
 
-/* .result-status-total {
+.result-status-total {
   display: inline-block;
   margin-left: 10px;
-} */
+}
 
 .reset-button {
   background-color: gray;
@@ -110,4 +54,4 @@ body {
   border-radius: 5px;
   cursor: pointer;
   }
->>>>>>> ae81c43 (include game status when launch)
+
