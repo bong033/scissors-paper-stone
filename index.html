@@ -33,22 +33,32 @@
           class="js-scissors-button game-buttons"
           onclick="
         playGame('scissors');
-      "
+        "
         >
           <img class="game-images" src="./Images/scissors-emoji.png" alt="scissors" />
         </button>
       </div>
     </div>
 
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center; color: white">
       <div class="result-status-total" >
-        <p class="js-result"></p>
-        <p class="js-status status"></p>
-        <p class="js-total-session"></p>
+        <p class="js-result">
+          You:
+          <img class="game-button-blank" src="./images/blank.png" alt="" />
+          - Computer:
+          <img class="game-button-blank" src="./images/blank.png" alt="" />
+        </p>
+        <p class="js-status status">
+          Status.
+        </p>
+        <p class="js-total-session">
+          Win: 0, Lose: 0, Tie: 0
+        </p>
       </div>
     </div>
+    
    
-    <div style="display: flex; justify-content: center;">
+    <div style="display: flex; justify-content: center">
       <button
         class="js-reset-button reset-button"
         onclick="
